@@ -16,7 +16,8 @@
                                  AxisOrientation="{Binding AxisOrientation, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
                                  IsReversed="{Binding IsReversed, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
                                  Ticks="{Binding Ticks, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
-                                 Foreground="{Binding Foreground, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                 Foreground="{TemplateBinding Foreground}"
+                                 />
                         <ContentPresenter/>
                     </Grid>
                 </ControlTemplate>

@@ -135,7 +135,7 @@ namespace InteractiveDataDisplay.WPF
             VerticalTicks = Array.Empty<double>();
 
             path = new Path();
-            BindingOperations.SetBinding(path, Path.StrokeProperty, new Binding("Stroke") { Source = this, Mode = BindingMode.TwoWay });
+            BindingOperations.SetBinding(path, Path.StrokeProperty, new Binding("Stroke") { Source = this, Mode = BindingMode.OneWay });
             path.StrokeThickness = 1.0;
             Children.Add(path);
         }
