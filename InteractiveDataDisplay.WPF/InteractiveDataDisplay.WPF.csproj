@@ -3,15 +3,16 @@
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
-    <Authors>liyue3068</Authors>
+    <Authors>Liyue</Authors>
     <Company>Personal</Company>
-    <Description>InteractiveDataDisplay.WPF for .NET5</Description>
+    <Description>InteractiveDataDisplay.WPF for .NET5
+Forked from "Microsoft InteractiveDataDisplay"</Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageId>InteractiveDataDisplay.NetCore.WPF</PackageId>
     <Product>InteractiveDataDisplay.NetCore.WPF</Product>
     <RepositoryUrl>https://github.com/liyue3068/InteractiveDataDisplay.WPF</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
